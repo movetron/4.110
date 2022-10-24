@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
     {
@@ -6,12 +6,12 @@ class Program
         {
 
             Console.WriteLine("Введите номер масти карты: 1-пик, 2-крести, 3-бубен, 4-червь");
-            int cardNumber = Convert.ToInt32(Console.ReadLine());
+            int cardNum = Convert.ToInt32(Console.ReadLine());
             
-            Console.WriteLine("Введите номер достоинства карты");
-            int cardDignity = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите номер достоинства карты:");
+            int cardDig = Convert.ToInt32(Console.ReadLine());
 
-            switch (cardDignity)
+            switch (cardDig)
             {
                 case 6: Console.Write("Шестерка"); 
                     break;
@@ -32,7 +32,7 @@ class Program
                 case 14: Console.Write("Туз"); 
                     break;
             }
-            switch (cardNumber)
+            switch (cardNum)
             {
                 case 1: Console.Write(" пик"); 
                     break;
